@@ -1,0 +1,4 @@
+* Why is centralization bad?
+* Vendor lock-in
+* Creativity and innovation
+* Adding new features

@@ -1,0 +1,27 @@
+Regulations:
+- the Web is becoming more like TV instead of libraries
+- people should be able to study and change the software they are using
+- openess and freedom are no longer the main values -- security, online civility, UI, intelectual property and comodity are now taking over as priorities, leading to a Web a that is less open and more centralized
+- soon enough, software will decide whether you get a loan, a job, or even life and death decisions -- where do you think the data will come from?
+- powerful groups will decide who gets privacy and security and who doesn't
+- the next billion Web users will come from countries that don't have a "bill or rights", so who's going to protect their free speech?
+- the Brazilian gov introduced the "the internet's bill of rights - Marco civil da internet" last year, paving the way to net neutrality; BUT! people have noticed that it lacks a comprehensive data-protection law, and this may make Brazilians’ data more vulnerable to prying eyes
+- it's very important that whenever new regulation is proposed, the process must be transparent, resulting in law that works in the best interest of the people as a whole
+
+
+Centralization:
+- centralization is a cheap and easy point for regulation, control and surveillance -- your information is increasingly available from “the cloud,” an easy one stop shopping point to get data not just about you, but about everyone
+- centralization is also easy - why waste time and money (as a small business) investing in a decentralized product, instead of going with some off-the-shelf tech stack? the end result is that we all lose in the end, and everyone will have to pay the price
+
+
+Security & Privacy:
+- we are currently living in the Golden Age of Surveillance -- technology is generating more information about us than ever before, and will increasingly do so, making a map of everything we do, changing the balance of power between us, businesses, and governments
+- most people think of privacy as that thing we need when we don't want our nude pictures to be seen (see John Oliver's piece), but in many cases it means life and death (think Syrian dissidents, or opressed minorities)
+- to tell you the truth, I'm glad I am not a teenager in the digital age
+- we need to educate people -- we need to be afraid of the "real" things, the things that matter: people are afraid of sharks, but in truth they should be more afraid of cows (cows kill 8x more people than sharks!); by far the most dangerous thing we do every day is to get in the car
+- anonymity is often associated with privacy, for good reasons; people like using pseudonyms online -- there was a case at W3C where someone requested to use a pseudonym and W3C agreed, but also let that person know if they were going to abuse it, their personal details will be made public
+
+
+Decentralization:
+- not to be confused with distribution: one is about distribution data, the other is about data replication
+- end-to-end communication that relies on encryption -- much more difficult to obtain 1000s of subpoenas instead of just one that gives blanket access to all the data
