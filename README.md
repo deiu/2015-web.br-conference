@@ -1,3 +1,3 @@
-# crosscloud-presentation
+# My keynote slides for Web.br 2015
 
-TODO
+Available live at https://deiu.github.io/web.br-2015/
