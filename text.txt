@@ -25,3 +25,7 @@ Security & Privacy:
 Decentralization:
 - not to be confused with distribution: one is about distribution data, the other is about data replication
 - end-to-end communication that relies on encryption -- much more difficult to obtain 1000s of subpoenas instead of just one that gives blanket access to all the data
+
+
+SOLID:
+- very generic -- difficult to implement

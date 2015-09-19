@@ -25,7 +25,7 @@
 <body style="opacity: 0">
 
 <slides class="layout-widescreen">
-<!--
+  <!--
   <slide class="fill nobackground" style="background-image: url(images/solid_1200x1200.png);background-position: 50% 50%; background-size: 40%; background-repeat: no-repeat">
   </slide> -->
 
@@ -40,10 +40,11 @@
 
   <slide class="segue">
     <hgroup class="auto-fadein">
-      <h1 class="dark" style="font-size:65px;padding-bottom:100px">What and why?</h1>
+      <h1 class="dark" style="font-size:65px;padding-bottom:100px">Why?</h1>
     </hgroup>
   </slide>
   <!--
+  It doesn't really make sense for me to ask why, we all know why.
   What do we mean by decentralization and why it is so important for us at this time?
   -->
 
@@ -51,8 +52,8 @@
     <footer class="source white">Source: http://theeconomist.com/</footer>
   </slide>
   <!--
-  I'm sure many of you are familiar with this picture from the Economist. It talks about walled gardens, or data silos, as other people commonly refer to it.
-  Even after all this time, it depicts our current reality with amazing accuracy! Most of you probably see people trying to escape by climbing these walls around common services like FB and LinkedIn. What you may have a hard time noticing is that there are no doors or even ladders in this picture. The data silos make to effort allow people to get out.
+  I'm sure many of you are familiar with this picture from the Economist. It was used to describe the walled gardens, or data silos, as other people commonly refer to them.
+  Even after all this time, it depicts our current reality with amazing accuracy! Most of you probably see people trying to escape by climbing these walls around common services like FB and LinkedIn. What you may have a hard time noticing is that there are no doors or even ladders in this picture. The data silos make to effort allow people to get out. This practice is called vendor lock-in.
   -->
 
   <slide class="fill nobackground" style="background-image: url(images/vendor-lockin.jpg);">
@@ -61,40 +62,47 @@
     </hgroup>
     <footer class="source white">Source: http://www.idgconnect.com/</footer>
   </slide>
-
-  <slide class="segue">
-    <hgroup class="auto-fadein">
-      <h1 class="dark" style="font-size:65px;padding-bottom:100px">What's missing...</h1>
-    </hgroup>
-  </slide>
-
-  <slide class="fill nobackground" style="background-image: url(images/creativity.jpg)">
-    <hgroup>
-      <h2 class="white">Creativity and innovation</h2>
-    </hgroup>
-    <footer class="source white">Source: http://innovationpov.com/</footer>
-  </slide>
-
-  <slide>
-    <hgroup>
-      <h2 class="">Ability to add new features</h2>
-    </hgroup>
-    <article style="text-align: center">
-      <img src="images/feature-branch.png">
-    </article>
-    <footer class="source">Source: https://www.atlassian.com</footer>
-  </slide>
   <!--
-  If you're a developer, like me, you know how easy it is to just fork a project on Github and add a new feature. Why don't we use this principle on the Web as well?
+
   -->
 
-
-  <slide class="fill nobackground" style="background-image: url(images/easy-way-hard-way.jpeg)">
-    <hgroup>
-      <h2 class="white">Don't take the easy way out</h2>
-    </hgroup>
-    <footer class="source white">Source: http://www.quitsmoking.com/</footer>
+  <slide class="fill nobackground" style="background-image: url(images/big-data.png);">
+    <footer class="source ">Source: http://wikimedia.org/</footer>
   </slide>
+  <!--
+  If you think big data is big, think again. With the IoT products hitting the market over the next few years, we will have to start talking about HUGE data. Everything we do, starting with the objects we touch, the ad panels we glance at, everything will be stored somewhere. Soon enough, software *alone* will decide whether you get a loan, a job, or maybe ultimately make life and death decisions. You may think that this is still early and/or it will never happen to you any time soon. Think again...
+  -->
+
+  <slide>
+    <article style="">
+      <hgroup>
+        <h2 class="">Data abuse / google bombing</h2>
+      </hgroup>
+      <img src="images/google-bomb.gif" style="margin-top:5%">
+      <p>"The search engine manipulation effect (SEME) and its possible impact on the outcomes of elections."* -- Robert Epstein and Ronald E. Robertson</p>
+      <br>
+      <p>
+        <ul>
+          <li>biased search rankings can shift the voting preferences of undecided voters by 20% or more</li>
+          <li>the shift can be much higher in some demographic groups</li>
+          <li>such rankings can be masked so that people show no awareness of the manipulation</li>
+        </ul>
+      </p>
+    </article>
+    <footer class="source">* published in the <em>Proceedings of the National Academy of Sciences of the United States of America</em>, 2014
+    <br>
+    Photo: Matt &amp; Jessica Zollmann (CC BY-NC-ND 2.0)
+    </footer>
+  </slide>
+  <!--
+  Two years ago, there was a paper published in ... by two people: R.E and R.R., called ... Their experiments showed that a), b), c).
+  We're fighting a war today that is far from being conventional. We've seen how public opinion can be easily influenced by abusing search engine results, or social networks. A single tweak in the search algorithm can make or break history. In the United States, half of the presidential elections have been won by margins under 7.6%, and the 2012 election was won by a margin of only 3.9%. That's well within the 20% margin.
+  -->
+
+  <slide class="fill nobackground" style="background-image: url(images/data-ownership.png)">
+    <footer class="source">Source: https://brium.me</footer>
+  </slide>
+
 
   <!--
   So how do we do this? Well...enter Solid
@@ -296,6 +304,41 @@
     </article>
   </slide>
 
+  <slide class="segue">
+    <hgroup>
+      <h1 class="dark" style="font-size:65px;padding-bottom:100px">4. New business models</h1>
+    </hgroup>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2 class="">Ability to add new features</h2>
+    </hgroup>
+    <article style="text-align: center">
+      <img src="images/feature-branch.png">
+    </article>
+    <footer class="source">Source: https://www.atlassian.com</footer>
+  </slide>
+  <!--
+  If you're a developer, like me, you know how easy it is to just fork a project on Github and add a new feature. Why don't we use this principle on the Web as well? What if, instead of having a business model that depends implies locking users into one specific service, companies focus more on the quality of their apps, the UI, UX and features. Imagine would great it would be to live in a world where companies compete based on cool features and UI/UX!
+  -->
+
+  <slide class="fill nobackground" style="background-image: url(images/creativity.jpg)">
+    <hgroup>
+      <h2 class="white">Creativity and innovation</h2>
+    </hgroup>
+    <footer class="source white">Source: http://innovationpov.com/</footer>
+  </slide>
+  <!--
+  Switching to this new business model would also allow entry level applications to get more momentum. True innovation would be at the base of new apps. Ultimately, everyone wins.
+  -->
+
+  <slide class="fill nobackground" style="background-image: url(images/easy-way-hard-way.jpeg)">
+    <hgroup>
+      <h2 class="white">Don't take the easy way out</h2>
+    </hgroup>
+    <footer class="source white">Source: http://www.quitsmoking.com/</footer>
+  </slide>
 
   <!-- END -->
 

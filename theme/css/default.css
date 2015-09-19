@@ -301,11 +301,11 @@ slides > slide.dark {
 /* line 135, ../scss/default.scss */
 slides > slide:not(.nobackground):before {
   font-size: 12pt;
-  content: "https://github.com/solid/";
+  content: "";
   color: darkgrey;
   position: absolute;
   bottom: 20px;
-  left: -50px;
+  left: 30px;
   background: url(../../images/solid_logo.png) no-repeat 30%;
   -webkit-background-size: 40px 40px;
   -moz-background-size: 40px 40px;
