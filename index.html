@@ -102,36 +102,27 @@
   <slide class="fill nobackground" style="background-image: url(images/data-ownership.png)">
     <footer class="source">Source: https://brium.me</footer>
   </slide>
-
-
   <!--
-  So how do we do this? Well...enter Solid
+  Finally, remember that your data is yours, you should own it.
   -->
- <!--  <slide class="fill nobackground" style="background-image: url(images/solid_1200x1200.png); background-size: 40%;">
-  </slide>
 
-  <slide class="segue">
-    <article style="text-align: center">
-      <p class="dark" style="font-size:65px;margin-top:20%">
-        Social Linked Data
-      </p>
-      <h3 class="dark">A &lt;Solid&gt; effort to re-decentralize the Web</h3>
-    </article>
-  </slide> -->
-  <!--
-  Solid stands for Social LD, and we like to think of it as a "solid" effort to re-dentralize the Web
-  -->
   <slide class="segue">
     <hgroup class="auto-fadein">
-      <h1 class="dark" style="font-size:65px;padding-bottom:100px">How can we help?</h1>
+      <h1 class="dark" style="font-size:65px;padding-bottom:100px">What can we do?</h1>
     </hgroup>
   </slide>
+  <!--
+  So what can we do about it? I think we need to start by breaking down the problem, and fixing one thing at a time.
+  -->
 
   <slide class="segue">
     <hgroup>
       <h1 class="dark" style="font-size:65px;padding-bottom:100px">1. Aim for user-centricity</h1>
     </hgroup>
   </slide>
+  <!--
+  First, we need to aim for user-centricity. Right now, when a new service is launched, if we want to avoid using google or facebook to use it, then we need to sign up. We type in the same data over and over again. Sometimes we spend years using the same service (think FB), but what if tomorrow it will be gone. What happens to all the data we created there so far? Sure, we might be able to download some of it, but then what? Where else can we use it?
+  -->
 
   <slide class="" style="">
     <hgroup>
@@ -154,7 +145,7 @@
     </article>
   </slide>
   <!--
-  We may decide to allow them access.
+  We may decide to allow them access. We also decied how much access they get. To what data, where, when and how? And this is where things get really interesting...
   -->
 
   <slide class="" style="">
@@ -166,7 +157,7 @@
     </article>
   </slide>
   <!--
-  But we may also decide to charge them for this access.
+  A really cool thing we can easily get "for free" now is that we may also decide to charge them for this access.
   -->
 
   <slide class="segue">
@@ -175,21 +166,24 @@
     </hgroup>
   </slide>
   <!--
-  That sounds resonable enough, right? But how do we do this?
+  That sounds resonable enough, right? OK, what's next?
   -->
 
-  <slide class="" style="">
+  <slide>
     <hgroup>
-      <h2 class=""></h2>
+      <h2 class="">Before (now)</h2>
     </hgroup>
     <article style="text-align: center">
       <img src="images/pre-decoupling.png">
     </article>
   </slide>
+  <!--
+  Today, developers are used to building applications that bundle the front-end, the data and the server together. Everything is located on the same server(s). Sure, APIs help a little, but ultimately the API is very tightly coupled to the application.
+  -->
 
   <slide class="" style="">
     <hgroup>
-      <h2 class=""></h2>
+      <h2 class="">After</h2>
     </hgroup>
     <article style="text-align: center">
       <img src="images/decoupling.png" style="margin-top:10%">
@@ -199,7 +193,7 @@
    We can break down the problem into multiple parts. The first step is to decouple the applications from the data they produce, and then to decouple the data from the actual storage server.
   -->
 
-  <slide class="" style="">
+  <slide>
     <hgroup>
       <h2 class=""></h2>
     </hgroup>
@@ -208,7 +202,7 @@
     </article>
   </slide>
 
-  <slide class="" style="">
+  <slide>
     <hgroup>
       <h2 class=""></h2>
     </hgroup>
@@ -217,7 +211,7 @@
     </article>
   </slide>
 
-  <slide class="" style="">
+  <slide>
     <hgroup>
       <h2 class=""></h2>
     </hgroup>
@@ -226,7 +220,7 @@
     </article>
   </slide>
 
-  <slide class="" style="">
+  <slide>
     <hgroup>
       <h2 class=""></h2>
     </hgroup>
@@ -243,27 +237,27 @@
       <h1 class="dark" style="font-size:65px;padding-bottom:100px">3. Re-decentralized services</h1>
     </hgroup>
   </slide>
+  <!--
+  Next, we need to design decentralized services.
+  -->
 
   <slide class="segue">
     <hgroup>
       <h1 class="dark" style="font-size:65px;padding-bottom:100px">3. <strike>Re-decentralized</strike> services</h1>
     </hgroup>
   </slide>
+  <!--
+  But still, just following the definition for decentralization is not enough.
+  -->
 
   <slide class="segue">
     <hgroup>
       <h1 class="dark" style="font-size:65px;padding-bottom:100px">3. Peer-to-Peer services</h1>
     </hgroup>
   </slide>
-
-  <slide class="" style="">
-    <hgroup>
-      <h2 class=""></h2>
-    </hgroup>
-    <article style="text-align: center">
-      <img src="images/p2p.png" style="margin-top: -50px">
-    </article>
-  </slide>
+  <!--
+  What we really need is actually something closer to p2p services! Data can reside on any machine, and should be accessible and addressable from anywhere on the Web.
+  -->
 
   <slide class="" style="">
     <hgroup>
@@ -277,7 +271,7 @@
   You can store data on different servers, in different locations. It could be at home in your basement, on your work server, or even with a cloud provider. The important thing you have to remember is that you should have the freedom to decide where you want to store your data.
   -->
 
-  <slide class="" style="">A
+  <slide class="" style="">
     <hgroup>
       <h2 class=""></h2>
     </hgroup>
@@ -285,6 +279,9 @@
       <img src="images/secure-data-p2p-1.png">
     </article>
   </slide>
+  <!--
+  Let me show you how this would work. Say you want to load a Web app from some place (in the cloud). To run the app, you just need to download the js, html and css files.
+  -->
 
   <slide class="" style="">
     <hgroup>
@@ -294,6 +291,9 @@
       <img src="images/secure-data-p2p-2.png">
     </article>
   </slide>
+  <!--
+  Next, you introduce yourself to the app so that the app knows where you data server is. At this point, the app fetches your data from your server, in a p2p way, over a secure TLS connection.
+  -->
 
   <slide class="" style="">
     <hgroup>
@@ -303,12 +303,18 @@
       <img src="images/secure-data-p2p.png">
     </article>
   </slide>
+  <!--
+  And in all this time, the company who made the app has no idea who you are and as well as no access to your data. Sure, it could turn out the app is built so that it sends data back to the mothership. But those app won't last long. Timbl mentioned a type of license called "the benevolent app"...
+  -->
 
   <slide class="segue">
     <hgroup>
       <h1 class="dark" style="font-size:65px;padding-bottom:100px">4. New business models</h1>
     </hgroup>
   </slide>
+  <!--
+  New bussiness models.
+  -->
 
   <slide>
     <hgroup>
@@ -320,7 +326,7 @@
     <footer class="source">Source: https://www.atlassian.com</footer>
   </slide>
   <!--
-  If you're a developer, like me, you know how easy it is to just fork a project on Github and add a new feature. Why don't we use this principle on the Web as well? What if, instead of having a business model that depends implies locking users into one specific service, companies focus more on the quality of their apps, the UI, UX and features. Imagine would great it would be to live in a world where companies compete based on cool features and UI/UX!
+  If you're a developer, like me, you know how easy it is to just fork a project on Github and add a new feature. Why don't we use this principle on the Web as well? What if, instead of having a business model that implies locking users into one specific service, companies focus more on the quality of their apps, the UI, UX and features. Imagine would great it would be to live in a world where companies compete based on cool features and UI/UX!
   -->
 
   <slide class="fill nobackground" style="background-image: url(images/creativity.jpg)">
@@ -334,11 +340,11 @@
   -->
 
   <slide class="fill nobackground" style="background-image: url(images/easy-way-hard-way.jpeg)">
-    <hgroup>
-      <h2 class="white">Don't take the easy way out</h2>
-    </hgroup>
     <footer class="source white">Source: http://www.quitsmoking.com/</footer>
   </slide>
+  <!--
+  Whatever you do, don't take the easy way out. A wise person once said that if you don't take the time to do things right from the beginning, you won't have the time to fix it later.
+  -->
 
   <!-- END -->
 
